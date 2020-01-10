@@ -3,12 +3,12 @@ module.exports = {
 	 * Represents how many shards the bot will have.
 	 * Must be either an interger or the string "auto".
 	 */
-	shardTotal: 1,
+	shardTotal: 4,
 	/*
 	 * The base URL used in links posted by the bot.
 	 * The URL *must* end with a forward slash ("/")
 	 */
-	hostingURL: "https://dev.gawesomebot.com/",
+	hostingURL: "http://localhost/",
 	/*
 	 * The IP the Web Server should bind to.
 	 * You should probably leave this as "0.0.0.0" which binds to all incoming connections
@@ -93,17 +93,17 @@ module.exports = {
 	/*
 	 * Optional: If you want your bot to show an invite link to your guild in the about/help commands.
 	 */
-	discordLink: "https://discord.gg/NZwzJ9Q",
+	discordLink: "https://discord.gg/N3MSybX",
 	/*
 	 * Data to populate the donation list on the /donate web page.
 	 */
-	donateSubtitle: "The GAwesomeBot team currently doesn't accept direct payments. (<a href='/wiki/FAQs#donations'>here's why</a>) Instead, you can use the following methods to support the project!",
+	donateSubtitle: "DevText",
 	donateCharities: [
 		{
 			icon_url: "http://i.imgur.com/1C08tFT.png",
-			donate_url: "https://github.com/GilbertGobbels/GAwesomeBot",
+			donate_url: "https://github.com/nihilop/GAwesomeBot",
 			name: "Star us on GitHub!",
-			country: "WW",
+			country: "FR",
 		},
 	],
 	/*
